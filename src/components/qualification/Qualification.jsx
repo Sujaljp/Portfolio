@@ -10,7 +10,7 @@ const Qualification = () => {
         setToggleQ(index)
     }
   return (
-    <section className="qualification section">
+    <section id='qualification' className="qualification section">
         <h2 className="section__title">Qualification</h2>
         <span className="section__subtitle">My personal Journey</span>
         
