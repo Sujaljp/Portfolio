@@ -16,11 +16,14 @@
     font-weight: var(--font-medium);
     color: var(--title-color);
     margin: 0 var(--mb-1);
+    padding: 0.5rem;
     cursor: pointer;
+    border-radius: 10px ;
 }
 
 .qualification__button:hover{
-    color: var(--title-color-dark);
+    background-color: var(--title-color);
+    color: var(--container-color);
 }
 
 .qualification__icon{
