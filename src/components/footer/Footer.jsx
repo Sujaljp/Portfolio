@@ -18,14 +18,14 @@ const Footer = () => {
         </ul>
 
         <div className="footer__social">
-          <a href="" className="footer__social-icon" target="_blank">
-            <i className="bx bxl-facebook"></i>
-          </a>
-          <a href="" className="footer__social-icon" target="_blank">
-            <i className="bx bxl-instagram"></i>
-          </a>
-          <a href="" className="footer__social-icon" target="_blank">
+          <a href="https://twitter.com/SujalPa90094497" className="footer__social-icon" target="_blank" rel="noreferrer">
             <i className="bx bxl-twitter"></i>
+          </a>
+          <a href="https://github.com/Sujaljp/" className="footer__social-icon" target="_blank" rel="noreferrer">
+            <i className="bx bxl-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/sujal-patil-7459b8215/" className="footer__social-icon" target="_blank" rel="noreferrer">
+            <i className="bx bxl-linkedin"></i>
           </a>
         </div>
 

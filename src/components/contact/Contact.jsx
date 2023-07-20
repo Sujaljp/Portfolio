@@ -46,7 +46,7 @@ const Contact = () => {
                         <i className="bx bxl-twitter contact__card-icon"></i>
                         <h3 className="contact__card-title">Twitter</h3>
                         <span className="contact__card-data">@sujaljp</span>
-                        <a href="#" className="contact__button">Write me
+                        <a href="https://twitter.com/SujalPa90094497" className="contact__button" target="_blank" rel="noreferrer">Follow me
                         <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
                 </div>
