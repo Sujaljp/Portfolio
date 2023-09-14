@@ -43,7 +43,6 @@
 }   
 
 /* Active link */
-.active_link,
 .nav__link:hover{
 color: orangered;
 }

@@ -1,6 +1,6 @@
 import "./about.css"
 import AboutImg from "../../assets/profile1.jpg"
-import CV from "../../assets/John-Cv.pdf"
+import CV from "../../assets/Mine.pdf"
 import Info from "./Info"
 
 
@@ -13,7 +13,8 @@ const About = () => {
             <img src={AboutImg} alt="" className="about__img" />
             <div className="about__data">
                 <Info/>
-                <p className="about__description">Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.</p>
+                <p className="about__description">As a <strong><>Frontend developer</></strong>, I love to create web pages with great UI in <strong><u>REACT</u></strong>,
+                and as a <br /> <strong><>Backend developer</></strong>, I have developed <u>Web servers</u> and <u>REST apis</u> with <strong><u>Django</u></strong>, I have sharpened my skill by making many projects.<br/>(still sharpening)</p>
                 <a href={CV} className="button button--flex">Download CV
                 <svg
                 className="button__icon"

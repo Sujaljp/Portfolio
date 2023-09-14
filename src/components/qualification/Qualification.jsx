@@ -21,17 +21,17 @@ const Qualification = () => {
                     <i className="uil uil-graduation-cap qualification__icon"></i>{" "}Education
                 </div>
 
-                <div className={toggleQ===2? "qualification__button qualification__active  button--flex":"qualification__button button--flex"}
+                {/* <div className={toggleQ===2? "qualification__button qualification__active  button--flex":"qualification__button button--flex"}
                 onClick={()=>toggleTab(2)}>
                     <i className="uil uil-briefcase-alt qualification__icon"></i>{" "}Experience
-                </div>
+                </div> */}
             </div>
 
             <div className="qualification__sections">
                 <div className={toggleQ===1?"qualification__content qualification__content-active":"qualification__content"}>
                     <div className="qualification__data">
                         <div className="">
-                            <h3 className="qualification__title">Web Design</h3>
+                            <h3 className="qualification__title">Computer Engineering</h3>
                             <span className="qualification__subtitle">Mumbai University</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calender-alt"></i> 2020-Present
@@ -50,10 +50,10 @@ const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                         <div className="">
-                            <h3 className="qualification__title">Art Director</h3>
-                            <span className="qualification__subtitle">Mumbai University</span>
+                            <h3 className="qualification__title">Frontend Development (React)   </h3>
+                            <span className="qualification__subtitle">Scrimba</span>
                             <div className="qualification__calender">
-                                <i className="uil uil-calender-alt"></i> 2020-Present
+                                <i className="uil uil-calender-alt"></i> 2022
                             </div>
                         </div>
                         

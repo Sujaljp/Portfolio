@@ -18,7 +18,7 @@ const Footer = () => {
         </ul>
 
         <div className="footer__social">
-          <a href="https://twitter.com/SujalPa90094497" className="footer__social-icon" target="_blank" rel="noreferrer">
+          <a href="https://twitter.com/sujaljp" className="footer__social-icon" target="_blank" rel="noreferrer">
             <i className="bx bxl-twitter"></i>
           </a>
           <a href="https://github.com/Sujaljp/" className="footer__social-icon" target="_blank" rel="noreferrer">

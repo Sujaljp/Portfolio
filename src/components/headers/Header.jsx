@@ -2,31 +2,6 @@ import { useState } from 'react'
 import './header.css'
 
 const Header = () => {
-    
-    window.addEventListener("scroll", function(){
-        const header = document.querySelector('.header')
-        if (this.scrollY>=80){
-         header.classList.add("scroll-header");
-        }else{header.classList.remove("scroll-header")}
-
-
-        if(this.scrollY>=0 && this.scrollY<420){
-            setActiveNav("#home")
-        }else if(this.scrollY>=420 && this.scrollY<1100){
-            setActiveNav("#about")
-        }else if(this.scrollY>=1100 && this.scrollY<1670){
-            setActiveNav("#skills")
-        }else if(this.scrollY>=1670 && this.scrollY<2400){
-            setActiveNav("#services")
-        }else if(this.scrollY>=3000 && this.scrollY<4500){
-            setActiveNav("#portfolio")
-        } else if(this.scrollY>=4500 ){
-            setActiveNav("#contact")
-        }else{
-            setActiveNav("#")
-        }
-    })
-
 
     const [toggleNav, setToggleNav] = useState(false);
     const [activeNav, setActiveNav] = useState("#home")
